@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings type="service">
+  <Resource_Element>
+    <Main_Resource_ID>8437</Main_Resource_ID>
+    <Main_Resource_Name>MQTT</Main_Resource_Name>
+    <Default_Resource>MQTT_1</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>1</Resource_Type_ID>
+      <Resource_Type_Name>MQTT_1</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>MQTT Resource</Name>
+        <ExpressionValue>MQTT_1</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Client ID</Name>
+        <ExpressionValue>GPH8C3SKM8I4Y0HLM3MYRQS</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>RS_Type_HelpKey</Name>
+        <ExpressionValue>MQTT_Services.htm</ExpressionValue>
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+</Resource_Settings>

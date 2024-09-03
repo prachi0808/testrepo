@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings type="resource">
+  <Resource_Element>
+    <Main_Resource_ID>8437</Main_Resource_ID>
+    <Main_Resource_Name>MQTT</Main_Resource_Name>
+    <Default_Resource>MQTT_1</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>1</Resource_Type_ID>
+      <Resource_Type_Name>MQTT_1</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Broker URLs</Name>
+        <ExpressionValue>tcp://broker.emqx.io:1883</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>MQTT Connection Timeout</Name>
+        <ExpressionValue>30</ExpressionValue>
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>11</ID>
+        <Name>MQTT Keep Alive Interval</Name>
+        <ExpressionValue>120</ExpressionValue>
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>12</ID>
+        <Name>MQTT Publish Timeout</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>12</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>13</ID>
+        <Name>Server Certificate File</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>13</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>14</ID>
+        <Name>Security Protocol</Name>
+        <ExpressionValue>TLSv1.2</ExpressionValue>
+        <DisplaySequenceID>14</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>15</ID>
+        <Name>Client Certificate File</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>15</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>16</ID>
+        <Name>Client Certificate Password</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>16</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>17</ID>
+        <Name>RS_Type_HelpKey</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>17</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Clean Session</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>User Name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Password</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Use LWT</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>LWT Topic</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>LWT Message</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>LWT QoS</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>8</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>LWS Retained</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+</Resource_Settings>

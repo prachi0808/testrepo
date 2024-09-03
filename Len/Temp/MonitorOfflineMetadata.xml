@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="bc4eccfb-1564-4180-b042-c7eb9db72e63">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Business Process-1</Name>
+    <Flow>
+      <ID>2</ID>
+      <Name>MQTT_trigger</Name>
+      <Step>
+        <ID>3</ID>
+        <Name>Save Message</Name>
+      </Step>
+      <Step>
+        <ID>5</ID>
+        <Name>Delay</Name>
+      </Step>
+      <Step>
+        <ID>13</ID>
+        <Name>Flow Data</Name>
+      </Step>
+      <Step>
+        <ID>14</ID>
+        <Name>NOP</Name>
+      </Step>
+      <Step>
+        <ID>15</ID>
+        <Name>BAM Utility</Name>
+      </Step>
+      <Trigger>
+        <ID>2</ID>
+        <Name>MQTT</Name>
+      </Trigger>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>
